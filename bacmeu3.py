@@ -32,5 +32,6 @@ for nome,sexo,naturalida in resultados:
       
   
 # Fechando o cursor e a conexão
+cnx.commit()       
 cursor.close()
 cnx.close()
